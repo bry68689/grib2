@@ -30,7 +30,11 @@ Usage: grib2json [options] FILE
 	[--filter.category --fc value] : select records with this numeric category
 	[--filter.parameter --fp value] : select records with this numeric parameter
 	[--filter.surface --fs value] : select records with this numeric surface type
-	[--filter.value --fv value] : select records with this numeric surface value
+	[--filter.value --fv value] : select records with this numeric surface value	
+	[--filter.lo1 --flo1 value] : select records with this numeric start value of longitude 
+	[--filter.la1 --fla1 value] : select records with this numeric start value of latitude
+	[--filter.lo2 --flo2 value] : select records with this numeric end value of longitude
+	[--filter.la2 --fla2 value] : select records with this numeric end value of latitude
 	[--help -h] : display this help
 	[--names -n] : print names of numeric codes
 	[--output -o value] : write output to the specified file (default is stdout)
